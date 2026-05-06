@@ -12,7 +12,18 @@ The sequence analyzed: `ATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGG
 * **Case 2:** BLAST with no filters (Global search).
 * **Case 3:** BLAST with Mouse (*Mus musculus*) filter.
 
----
+### 2.2 Computational Analysis using C
+A C program was developed to:
+* Count Adenine (A), Thymine (T), Guanine (G), and Cytosine (C)
+* Calculate GC content
+* Determine sequence length
+* Generate reverse complement
+
+### 2.3 Sequence Alignment using BLAST
+The same sequence was analyzed using NCBI BLAST under three conditions:
+1. With organism filter (*Mus musculus*)
+2. Without any filter
+3. Excluding *Homo sapiens*
 
 ## 3. Results
 
