@@ -12,7 +12,9 @@ The sequence analyzed: `ATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGG
 * **Case 2:** BLAST with no filters (Global search).
 * **Case 3:** BLAST with Mouse (*Mus musculus*) filter.
 
-### 2.2 Computational Analysis using C
+### 2.2 Computational Analysis using C         
+[View the full source code here](./dna_analyzer.c)
+
 A C program was developed to:
 * Count Adenine (A), Thymine (T), Guanine (G), and Cytosine (C)
 * Calculate GC content
@@ -28,7 +30,7 @@ The same sequence was analyzed using NCBI BLAST under three conditions:
 ## 3. Results
 
 ### 3.1 Computational Output (C)
-The C program successfully calculated the nucleotide distribution. The GC content of **64.00%** indicates high thermal stability due to the triple hydrogen bonds in G-C pairs.
+The C program successfully calculated the nucleotide distribution. The GC content of **64.00%** indicates high thermal stability due to the triple hydrogen bonds in G-C pairs. 
 
 ![C Program Execution](./c_output.jpg)
 
